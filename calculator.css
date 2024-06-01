@@ -19,22 +19,39 @@
     margin-left: 13px;
 }
 
-#keys button
+button
 {
     border-radius: 50px;
     width: 90px;
     height: 90px;
     font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
     background-color: rgb(99, 99, 99);
     color: white;
 }
 
-#keys button:hover
+button:hover
 {
     background-color: rgb(85, 85, 85);
 }
 
-#keys button:active
+button:active
 {
     background-color: rgb(140, 140, 140);
+}
+
+.operator 
+{
+    background-color: orange;
+}
+
+.operator:hover 
+{
+    background-color: rgb(255, 120, 0);
+}
+
+.operator:active 
+{
+    background-color: rgb(255, 200, 0);
 }
