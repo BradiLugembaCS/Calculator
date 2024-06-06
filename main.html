@@ -8,25 +8,28 @@
 </head>
 <body>
     <div id="frame">
+
+        <input id = "display" readonly>
+
         <div id = "keys">
             <button>AC</button>
             <button>+/-</button>
             <button>%</button>
             <button class="operator">/</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="operator">X</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="operator">-</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="operator">+</button>
-            <button>0</button>
-            <button>.</button>
+            <button onclick="addValue('7')">7</button>
+            <button onclick="addValue('8')">8</button>
+            <button onclick="addValue('9')">9</button>
+            <button  onclick="addValue('x')" class="operator">X</button>
+            <button onclick="addValue('4')">4</button>
+            <button onclick="addValue('5')">5</button>
+            <button onclick="addValue('6')">6</button>
+            <button  onclick="addValue('-')"class="operator">-</button>
+            <button onclick="addValue('1')">1</button>
+            <button onclick="addValue('2')">2</button>
+            <button onclick="addValue('3')">3</button>
+            <button onclick="addValue('+')" class="operator">+</button>
+            <button onclick="addValue('0')">0</button>
+            <button onclick="addValue('.')">.</button>
             <button class="operator">=</button>
         </div>
 
@@ -34,5 +37,6 @@
 
     </div>
     
+    <script src="calculator.js"></script>
 </body>
 </html>
